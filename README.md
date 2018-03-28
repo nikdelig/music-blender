@@ -1,12 +1,12 @@
 # music-blender
-## Music blender player
+## Music player for web radio stations
 
 This repo contains all relevant files for serving an internet radio player.
 
 
 ### [API](https://github.com/nikdelig/music-blender/tree/master/api)
 
-This folder containts a basic Node.js REST API. This will serve a list of internet radio stations.
+This folder containts a basic Node.js REST API. It will serve a list of internet radio stations.
 
 ### [Blender player](https://github.com/nikdelig/music-blender/tree/master/blender-player)
 
