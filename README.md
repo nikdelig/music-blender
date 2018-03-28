@@ -1,2 +1,2 @@
 # music-blender
-Music blender player monorepo
+Music blender player
