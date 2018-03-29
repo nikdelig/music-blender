@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d0349f-2f18-444b-ad93-f561319fcd2d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/blender-player/.angular-cli.json" afterPath="$PROJECT_DIR$/blender-player/.angular-cli.json" />
+      <change beforePath="$PROJECT_DIR$/blender-player/README.md" afterPath="$PROJECT_DIR$/blender-player/README.md" />
+      <change beforePath="$PROJECT_DIR$/blender-player/package.json" afterPath="$PROJECT_DIR$/blender-player/package.json" />
+      <change beforePath="$PROJECT_DIR$/blender-player/src/app/app.component.css" afterPath="$PROJECT_DIR$/blender-player/src/app/app.component.scss" />
+      <change beforePath="$PROJECT_DIR$/blender-player/src/app/app.component.ts" afterPath="$PROJECT_DIR$/blender-player/src/app/app.component.ts" />
+      <change beforePath="$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.css" afterPath="$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.scss" />
+      <change beforePath="$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.ts" afterPath="$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.ts" />
+      <change beforePath="$PROJECT_DIR$/blender-player/src/app/playlist/playlist.component.css" afterPath="$PROJECT_DIR$/blender-player/src/app/playlist/playlist.component.scss" />
+      <change beforePath="$PROJECT_DIR$/blender-player/src/app/playlist/playlist.component.ts" afterPath="$PROJECT_DIR$/blender-player/src/app/playlist/playlist.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,46 +74,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blender-player/src/app/app.component.spec.ts">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blender-player/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="audio-player.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playlist.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blender-player/src/app/playlist/playlist.component.spec.ts">
+      <file leaf-file-name="audio-player.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blender-player/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,6 +131,7 @@
       <find>example</find>
       <find>typesc</find>
       <find>works</find>
+      <find>defaul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,6 +150,9 @@
         <option value="$PROJECT_DIR$/api/.gitignore" />
         <option value="$PROJECT_DIR$/blender-player/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/blender-player/README.md" />
+        <option value="$PROJECT_DIR$/blender-player/package.json" />
+        <option value="$PROJECT_DIR$/blender-player/.angular-cli.json" />
       </list>
     </option>
   </component>
@@ -187,11 +195,6 @@
             <path>
               <item name="music-blender" type="b2602c69:ProjectViewProjectNode" />
               <item name="music-blender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="music-blender" type="b2602c69:ProjectViewProjectNode" />
-              <item name="music-blender" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="music-blender" type="b2602c69:ProjectViewProjectNode" />
@@ -271,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522154705387</updated>
-      <workItem from="1522154707544" duration="4140000" />
+      <workItem from="1522154707544" duration="5300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4140000" />
+    <option name="totallyTimeSpent" value="5300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -405,14 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blender-player/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blender-player/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -457,14 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blender-player/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blender-player/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -497,6 +484,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blender-player/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -505,10 +500,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/blender-player/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="630">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blender-player/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blender-player/src/app/audio-player/audio-player.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blender-player/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
