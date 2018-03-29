@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Initialization
 
-Run `yarn init` to install packages and start a new dev server.
+Run `yarn go` to install packages and start a new dev server.
 
 ## Build
 
