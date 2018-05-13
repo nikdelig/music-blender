@@ -1,11 +1,11 @@
-import { AppActionTypes } from './app.actions';
+import {AppActions, AppActionTypes} from './app.actions';
 import { State } from '@ngrx/store';
 
 interface AppState {
   key: number;
 }
 
-export function reducer(state: State<AppState>, action: AppActionTypes): State<AppState> {
+export function reducer(state: State<AppState>, action: AppActions): State<AppState> {
   switch (action.type) {
     case AppActionTypes.ACTION: {
       console.log('first action');
