@@ -2,6 +2,7 @@
   "name": "blender-player",
   "version": "0.0.1",
   "license": "MIT",
+  "title": "Frontend App",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --watch",
@@ -11,7 +12,8 @@
     "lint": "ng lint",
     "test all things": "ng lint && ng test",
     "e2e": "ng e2e",
-    "reset": "rm -rf node-modules && rm -rf yarn.lock && rm -rf yarn-error.log && yarn"
+    "reset": "rm -rf node-modules && rm -rf yarn.lock && rm -rf yarn-error.log && yarn",
+    "prod build": "ng build --prod"
   },
   "private": true,
   "dependencies": {
