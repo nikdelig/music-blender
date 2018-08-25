@@ -4,11 +4,11 @@ import { Actions, Effect } from '@ngrx/effects';
 import { Observable } from 'rxjs';
 
 @Injectable()
-export class AuthEffects {
+export class AppEffects {
 
   @Effect()
   login$: Observable<any> = this.actions$.pipe(
     );
 
-  constructor(private http: HttpClient, private actions$: Actions) {}
+  constructor(private actions$: Actions) {}
 }

@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AudioPlayerComponent } from './audio-player/audio-player.component';
 import { PlaylistComponent } from './playlist/playlist.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PlaylistComponent } from './playlist/playlist.component';
     PlaylistComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+      HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
