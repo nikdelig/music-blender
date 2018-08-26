@@ -1,10 +1,19 @@
 <div class="app">
-    <h1>Awesome Music blender</h1>
-    <div class="audio-player">
-      <app-audio-player></app-audio-player>
-    </div>
-    <div class="playlist">
-      <app-playlist></app-playlist>
-    </div>
+    <mat-drawer-container>
+        <mat-drawer #drawer class="app-sidenav" mode="side">
+            MENU
+        </mat-drawer>
+        <button type="button" mat-button (click)="drawer.toggle()">
+            Toggle sidenav
+        </button>
+        <div class="app-content">
+            <h1>Awesome Music blender</h1>
+            <div class="audio-player">
+              <app-audio-player></app-audio-player>
+            </div>
+            <div class="playlist">
+              <app-playlist></app-playlist>
+            </div>
+        </div>
+    </mat-drawer-container>
 </div>
-
