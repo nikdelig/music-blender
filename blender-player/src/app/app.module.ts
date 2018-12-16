@@ -2,8 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AudioPlayerComponent } from './audio-player/audio-player.component';
-import { PlaylistComponent } from './playlist/playlist.component';
+import { AudioPlayerComponent } from './components/audio-player/audio-player.component';
+import { PlaylistComponent } from './components/playlist/playlist.component';
 import {HttpClientModule} from '@angular/common/http';
 import {MatSidenavModule} from '@angular/material';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
