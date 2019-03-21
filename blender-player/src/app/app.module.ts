@@ -7,6 +7,7 @@ import { PlaylistComponent } from './components/playlist/playlist.component';
 import {HttpClientModule} from '@angular/common/http';
 import {MatSidenavModule} from '@angular/material';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
     BrowserModule,
     HttpClientModule,
     MatSidenavModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
