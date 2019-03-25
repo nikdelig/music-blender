@@ -3,11 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  {
-    path: 'books',
-    loadChildren: 'audio-player.module#BooksModule',
-    // canActivate: [AuthGuard],
-  },
+  // {
+  //   path: '',
+  //   loadChildren: 'audio-player.module#AudioPlayerModule',
+  //   canActivate: [AuthGuard],
+  // },
 //   { path: '**', component: NotFoundPageComponent },
 ];
 
