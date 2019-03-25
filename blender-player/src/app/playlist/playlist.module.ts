@@ -8,6 +8,7 @@ import { PlaylistComponent } from './playlist.component';
   ],
   imports: [
   ],
+  exports: [PlaylistComponent],
   providers: [],
 })
 export class PlaylistModule { }

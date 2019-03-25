@@ -1,3 +1,5 @@
+import { AudioPlayerModule } from './audio-player/audio-player.module';
+import { PlaylistModule } from './playlist/playlist.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -13,15 +15,15 @@ import { PlaylistComponent } from './playlist/playlist.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AudioPlayerComponent,
-    PlaylistComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     MatSidenavModule,
     NoopAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PlaylistModule,
+    AudioPlayerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

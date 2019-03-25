@@ -8,6 +8,9 @@ import { AudioPlayerComponent } from './audio-player.component';
   ],
   imports: [
   ],
+  exports: [
+      AudioPlayerComponent
+  ],
   providers: [],
 })
 export class AudioPlayerModule { }
