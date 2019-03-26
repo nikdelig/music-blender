@@ -8,6 +8,7 @@ import {
 import { environment } from '../environments/environment';
 import * as fromRouter from '@ngrx/router-store';
 import * as fromPlaylist from './playlist/playlist.reducer';
+import * as fromAudioPlayer from './audio-player/audio-player.reducer';
 
 /**
  * storeFreeze prevents state from being mutated. When mutation occurs, an
@@ -77,4 +78,16 @@ export const getPlaylistState = createFeatureSelector<State, fromPlaylist.State>
 export const getPlaylist = createSelector(
   getPlaylistState,
   fromPlaylist.getPlaylistState
+);
+
+/**
+ * Audio Player Reducers
+ */
+export const getAudioPlayerState = createFeatureSelector<State, fromPlaylist.State>(
+  'playlist'
+);
+
+export const getAudioPlayer = createSelector(
+  getAudioPlayerState,
+  fromAudioPlayer.getAudioPlayerState
 );
