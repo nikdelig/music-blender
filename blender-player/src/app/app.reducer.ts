@@ -7,6 +7,7 @@ import {
 } from '@ngrx/store';
 import { environment } from '../environments/environment';
 import * as fromRouter from '@ngrx/router-store';
+import * as fromPlaylist from './playlist/playlist.reducer';
 
 /**
  * storeFreeze prevents state from being mutated. When mutation occurs, an
@@ -29,8 +30,8 @@ import { storeFreeze } from 'ngrx-store-freeze';
  * our top level state interface is just a map of keys to inner state types.
  */
 export interface State {
-  // layout: fromLayout.State;
   router: fromRouter.RouterReducerState;
+  playlist: fromPlaylist.State;
 }
 
 /**
@@ -39,8 +40,8 @@ export interface State {
  * and the current or initial state and return a new immutable state.
  */
 export const reducers: ActionReducerMap<State> = {
-  // layout: fromLayout.reducer,
   router: fromRouter.routerReducer,
+  playlist: fromPlaylist.reducer,
 };
 
 // console.log all actions
@@ -67,13 +68,13 @@ export const metaReducers: MetaReducer<State>[] = !environment.production
   : [];
 
 /**
- * Layout Reducers
+ * Playlist Reducers
  */
-// export const getLayoutState = createFeatureSelector<State, fromLayout.State>(
-//   'layout'
-// );
+export const getPlaylistState = createFeatureSelector<State, fromPlaylist.State>(
+  'playlist'
+);
 
-// export const getShowSidenav = createSelector(
-//   // getLayoutState,
-//   // fromLayout.getShowSidenav
-// );
+export const getPlaylist = createSelector(
+  getPlaylistState,
+  fromPlaylist.getPlaylistState
+);
