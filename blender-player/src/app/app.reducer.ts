@@ -33,6 +33,7 @@ import { storeFreeze } from 'ngrx-store-freeze';
 export interface State {
   router: fromRouter.RouterReducerState;
   playlist: fromPlaylist.State;
+  audioPlayer: fromAudioPlayer.State;
 }
 
 /**
@@ -43,6 +44,7 @@ export interface State {
 export const reducers: ActionReducerMap<State> = {
   router: fromRouter.routerReducer,
   playlist: fromPlaylist.reducer,
+  audioPlayer: fromAudioPlayer.reducer,
 };
 
 // console.log all actions
@@ -83,8 +85,8 @@ export const getPlaylist = createSelector(
 /**
  * Audio Player Reducers
  */
-export const getAudioPlayerState = createFeatureSelector<State, fromPlaylist.State>(
-  'playlist'
+export const getAudioPlayerState = createFeatureSelector<State, fromAudioPlayer.State>(
+  'audioPlayer'
 );
 
 export const getAudioPlayer = createSelector(

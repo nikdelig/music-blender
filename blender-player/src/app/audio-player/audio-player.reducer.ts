@@ -1,5 +1,4 @@
 import { AudioPlayer } from './../models/audio-player.model';
-import { Playlist } from './../models/playlist.model';
 import { AudioPlayerActionTypes, AudioPlayerActionsUnion } from './audio-player.actions';
 
 export interface State {
@@ -32,5 +31,5 @@ export function reducer(
     }
   }
 
-export const getPlaylistState = (state: State) => state.audioPlayer;
-export const getPlaylistLoading = (state: State) => state.audioPlayerLoading;
+export const getAudioPlayerState = (state: State) => state.audioPlayer;
+export const getAudioPlayerLoading = (state: State) => state.audioPlayerLoading;
