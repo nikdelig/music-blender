@@ -1,0 +1,6 @@
+{
+    "streams": {
+        "strawberryTongue": "http://sc6.easywebcommunications.com:8007/stream",
+        "deepHouseRadio": "http://37.187.93.104:8589/deep"
+    }
+}
