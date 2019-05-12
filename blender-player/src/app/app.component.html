@@ -2,14 +2,14 @@
     <mat-drawer-container>
         <mat-drawer #drawer class="app-sidenav" mode="side">
             MENU
-        </mat-drawer>
-        <button type="button" mat-button (click)="drawer.toggle()">
-            Toggle Menu
+            <app-playlist></app-playlist>
+        </mat-drawer>
+        <button mat-icon-button type="button" mat-button (click)="drawer.toggle()">
+            <mat-icon>menu</mat-icon>
         </button>
         <div class="app-content">
             <h1>Awesome Music blender</h1>
               <app-audio-player></app-audio-player>
-              <app-playlist></app-playlist>
         </div>
     </mat-drawer-container>
 </div>

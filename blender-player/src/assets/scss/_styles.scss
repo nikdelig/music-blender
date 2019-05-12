@@ -1,6 +1,29 @@
 @import './variables';
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:400,700|Material+Icons');
+@import '~@angular/material/theming';
 
 // Default styles
 body {
     margin: 0;
+}
+
+.mat-drawer-container {
+    width: 100vw;
+    height: 100vh;
+    
+    mat-drawer {
+        height: 100%;
+        min-width: 20vw;
+    }
+
+    .mat-drawer-content {
+        background-color: $background-color-dark;
+        color: #e8e8e8;
+    }
+
+    .mat-drawer-content, mat-drawer {
+        padding: 20px;
+        box-sizing: border-box;
+    }
 }
