@@ -8,9 +8,9 @@
     "start": "ng serve --open --watch",
     "go": "yarn && ng serve --open --watch",
     "build": "ng build --prod",
-    "test": "ng test --watch=false --browsers=ChromeHeadless",
+    "test": "ng test --watch=false --browsers=ChromeHeadless -—no-sandbox",
     "lint": "ng lint",
-    "test all things": "ng lint && ng test --watch=false --browsers=ChromeHeadless",
+    "test all things": "ng lint && ng test --watch=false --browsers=ChromeHeadless -—no-sandbox",
     "e2e": "ng e2e",
     "reset": "rm -rf node-modules && rm -rf yarn.lock && rm -rf yarn-error.log && yarn",
     "prod build": "ng build --prod"
