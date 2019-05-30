@@ -18,8 +18,8 @@ job 1:
   script: cd blender-player && yarn && yarn test
 
 job 2:
-  stage: test
-  script: node_modules/.bin/ng e2e
+  stage: build
+  script: cd blender-player && yarn go
 
 release_job:
   stage: build
