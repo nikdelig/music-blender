@@ -7,10 +7,10 @@
     "ng": "ng",
     "start": "ng serve --open --watch",
     "go": "yarn && ng serve --open --watch",
-    "build": "ng build --prod",
-    "test": "ng test --watch=false -—no-sandbox --browsers=ChromeHeadless",
+    "build": "ng build",
+    "test": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
-    "test all things": "ng lint && ng test -—no-sandbox --watch=false --browsers=ChromeHeadless",
+    "test all things": "ng lint && ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "reset": "rm -rf node-modules && rm -rf yarn.lock && rm -rf yarn-error.log && yarn",
     "prod build": "ng build --prod"

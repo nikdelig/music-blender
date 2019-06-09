@@ -13,16 +13,16 @@ before_script:
 
 
 stages:
-  - test
+  - test and lint
   - build
 
 job 1:
-  stage: test
-  script: cd blender-player && yarn && yarn test
+  stage: test and lint
+  script: cd blender-player && yarn && yarn test all things
 
 job 2:
   stage: build
-  script: cd blender-player && yarn go
+  script: cd blender-player && yarn prod build
 
 release_job:
   stage: build
