@@ -15,7 +15,7 @@ stages:
 
 test and lint:
   stage: test and lint
-  script: cd blender-player && yarn && yarn test all things
+  script: cd blender-player && yarn && yarn test-all-things
 
 build:
   stage: build
