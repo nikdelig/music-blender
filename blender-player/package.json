@@ -32,7 +32,7 @@
     "@ngrx/router-store": "^8.0.1",
     "@ngrx/store": "^8.0.1",
     "@schematics/angular": "^8.0.6",
-    "core-js": "^3.1.4",
+    "core-js": "^2.5.9",
     "jasmine-marbles": "^0.6.0",
     "material-design-icons": "^3.0.1",
     "ngrx-store-freeze": "^0.2.4",
@@ -41,7 +41,7 @@
     "zone.js": "^0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.12.4",
+    "@angular-devkit/build-angular": "^0.800.6",
     "@angular/cli": "^8.0.6",
     "@angular/compiler-cli": "^8.0.3",
     "@angular/language-service": "^8.0.3",
@@ -59,6 +59,6 @@
     "protractor": "^5.4.2",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "3.5.2"
+    "typescript": "3.4.5"
   }
 }
