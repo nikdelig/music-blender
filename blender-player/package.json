@@ -10,7 +10,7 @@
     "build": "ng build",
     "test": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
-    "complete test": "ng lint && ng test --watch=false --browsers=ChromeHeadless",
+    "complete_test": "ng lint && ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "reset": "rm -rf node-modules && rm -rf yarn.lock && rm -rf yarn-error.log && yarn",
     "prod build": "ng build --prod"
