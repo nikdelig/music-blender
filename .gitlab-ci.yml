@@ -14,7 +14,7 @@ before_script:
 stages:
   - test and lint
   # - e2e
-  #- build
+  - build
 
 test and lint:
   stage: test and lint
