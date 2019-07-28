@@ -13,7 +13,7 @@
     "complete_test": "ng lint && ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "reset": "rm -rf node-modules && rm -rf yarn.lock && rm -rf yarn-error.log && yarn",
-    "prod build": "ng build --prod"
+    "prod_build": "ng build --prod"
   },
   "private": true,
   "dependencies": {
