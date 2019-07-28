@@ -11,14 +11,14 @@ cache:
 # - apt-get update && apt-get install -y xvfb chromium
 #  - echo "N" | npm install -g @angular/cli
 
-      #stages:
-      #- test and lint
+stages:
+  - test and lint
   # - e2e
   #- build
 
-      #test and lint:
-      # stage: test and lint
-      #script: cd blender-player && yarn && yarn complete_test
+test and lint:
+  stage: test and lint
+  script: cd blender-player && yarn && yarn complete_test
 
 # e2e:
 #   stage: e2e
