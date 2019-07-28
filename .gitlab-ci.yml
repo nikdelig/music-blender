@@ -13,16 +13,16 @@ before_script:
 
 stages:
   - test and lint
-  # - e2e
+  - e2e
   - build
 
 test and lint:
   stage: test and lint
   script: cd blender-player && yarn && yarn complete_test
 
-# e2e:
-#   stage: e2e
-#   script: cd blender-player && yarn e2e
+e2e:
+  stage: e2e
+  script: cd blender-player && yarn e2e
 
 build:
   stage: build
