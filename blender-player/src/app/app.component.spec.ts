@@ -2,6 +2,7 @@ import {TestBed, async} from '@angular/core/testing';
 import {AppComponent} from './app.component';
 import {AudioPlayerComponent} from './audio-player/audio-player.component';
 import {PlaylistComponent} from './playlist/playlist.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -11,6 +12,9 @@ describe('AppComponent', () => {
           AudioPlayerComponent,
           PlaylistComponent
       ],
+      schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+    ],
     }).compileComponents();
   }));
   it('should create the app', async(() => {
