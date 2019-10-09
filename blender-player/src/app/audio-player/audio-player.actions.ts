@@ -1,14 +1,7 @@
-import { Action } from '@ngrx/store';
+import { Action, createAction } from '@ngrx/store';
 import { Playlist } from '../models/playlist.model';
+import { state } from '@angular/animations';
 
-export enum AudioPlayerActionTypes {
-  GetPlaylist = '[Audio Player] Get Audio Player',
-}
-
-export class GetAudioPlayer implements Action {
-  readonly type = AudioPlayerActionTypes.GetPlaylist;
-
-  constructor(public payload: Playlist) {}
-}
-
-export type AudioPlayerActionsUnion = GetAudioPlayer;
+export const GetAudioPlayer = createAction(
+  '[Audio Player] Get Audio Player', (state, {payload: Playlist}) => ({state, payload})
+);
